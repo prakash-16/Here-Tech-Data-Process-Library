@@ -74,7 +74,6 @@ public class ProcessEvents implements Collector<Event, Map<String, Map<Long, Dou
 
     @Override
     public Set<Characteristics> characteristics() {
-        // Need data type of finisher not accumaltor and hashmap are not thread safe to do concurrrent and nietheir dio i need it unorder
         return Set.of();
     }
 
